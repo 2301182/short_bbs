@@ -8,8 +8,8 @@
 <body>
     <h1>ログイン</h1>
     <form method="post" action="check.php">
-        <p>ユーザー名：<input type="text" name="username"></p>
-        <p>パスワード：<input type="password" name="password"></p>
+        <p>ユーザー名：<input type="text" name="username" value="user1"></p>
+        <p>パスワード：<input type="password" name="password" value="pass1"></p>
         <button type="submit" name="login">ログイン</button>
     </form>
 </body>
